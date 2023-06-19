@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">vulnapk</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="description">
+        1. Insecure Data Storage: Demonstrates insecure storage of sensitive data, such as passwords and API keys.\n
+        2. Input Validation: Illustrates the lack of proper input validation, leading to potential security issues like SQL injection and HTML injection\n
+        3. Insecure Communication: Shows how sensitive data can be exposed when transmitted over insecure communication channels.\n
+        4. Insecure Authentication: Highlights vulnerabilities related to authentication mechanisms, such as weak password policies and session management issues.\n
+        5. Insecure Authorization: Demonstrates flaws in authorization mechanisms that can allow unauthorized access to certain functionalities.\n
+        6. Insecure Cryptography: Shows the improper use of cryptographic functions, leading to weak or broken encryption.\n
+        7. Lack of Binary Protection: Demonstrates weak root detection mechanisms that allow the application running in a rooted environment,
+        also there are no dynamic instrumentation detection to prevent hooking with frida.\n</string>
+    <string name="crypto_objective">You will learn about insecure cryptography that consist of hardcoded encryption key and insecure hash algorithm.</string>
+    <string name="settings">Initialize your web server IP for VulnWeb section. If an error has occurred on VulnWeb, please press delete and reinsert the IP then press save.</string>
+</resources>

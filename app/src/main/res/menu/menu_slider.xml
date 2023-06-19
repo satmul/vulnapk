@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_item1"
+            android:title="Home" />
+        <item
+            android:id="@+id/menu_item2"
+            android:title="Insecure Storage" />
+        <item
+            android:id="@+id/menu_item3"
+            android:title="Insecure Cryptography" />
+        <item
+            android:id="@+id/menu_item4"
+            android:title="Insecure Web App" />
+        <item
+            android:id="@+id/menu_item6"
+            android:title="Lack of Binary Protections" />
+        <item
+            android:id="@+id/menu_item5"
+            android:title="Settings" />
+    </group>
+</menu>
