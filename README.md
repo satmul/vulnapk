@@ -15,9 +15,7 @@ To run the vulnerable APK, you need the following:
 
 1. Clone this repository to your local machine:
 
-   `bash
-   git clone https://github.com/satmul/vulnapk.git
-   `
+   `git clone https://github.com/satmul/vulnapk.git`
    or you could install the APK directly from release, but it's strongly recommended to clone this repo.
    
 2. Install docker on your host system
